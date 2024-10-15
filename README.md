@@ -2,7 +2,7 @@
 É um ramo da inteligência artificial que permite a criação de sistemas capazes de aprender e melhorar seu desempenho em uma tarefa sem serem explicitamente programados para isso. O modelo utiliza dados, que pode-se chamar experiência, para identificar padrões e ajustar seus parâmetros, com o objetivo de melhorar o desempenho em relação a uma métrica específica, que pode se acurácia ou erro médio, por exemplo. Conforme esse sistema é exposto a mais dados o desempenho tende a melhorar.
 
 # 2. Explique o conceito de conjunto de treinamento, conjunto de validação e conjunto de teste em machine learning.
-Essa etapa refere-se ao split do meu conjunto de dados. Onde divide-se em:
+Essa etapa refere-se ao split do conjunto de dados. Onde divide-se em:
 - **Conjunto de Treinamento:** Contém a maior parte dos dados e é utilizado para treinar o modelo, ou seja, é onde o modelo ajusta seus parâmetros para aprender os padrões presentes nos dados.
 - **Conjunto de Validação:** Utilizado para ajustar hiperparâmetros e avaliar o desempenho do modelo durante o processo de treinamento. Ele ajuda a detectar problemas como overfitting ou underfitting, permitindo ajustes finos antes de finalizar o modelo.
 - **Conjunto de Teste:** Conjunto de dados usado para avaliar o desempenho final do modelo, depois que ele foi treinado e validado. Ele oferece uma visão realista de como o modelo se comporta em dados novos, que não foram usados para seu treinamento.
